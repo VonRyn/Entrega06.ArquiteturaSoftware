@@ -1,24 +1,9 @@
-# Exercício MVC em Java - Arquitetura de Software
+# Exercício 6 MVC em Java - Arquitetura de Software
 
 **Aluno:** Christian Gustavo Von Ryn  
 **RGM:** 43384323
 
-Aplicação Java de console para cadastrar e listar produtos, usando Model-View-Controller, conforme a opção B do exercício.
-
-## Organização
-
-```text
-mvcjava/
-  Main.java
-  model/Produto.java
-  view/ProdutoView.java
-  controller/ProdutoController.java
-```
-
-- **Model**: dados e validação de nome e preço, sem apresentação.
-- **View**: recebe entrada e exibe resultados, sem acessar o armazenamento.
-- **Controller**: guarda a coleção em memória e faz a mediação entre Model e View.
-- **Main**: inicia a aplicação.
+Aplicação Java para cadastrar e listar produtos, usando Model-View-Controller.
 
 ## Executar
 
